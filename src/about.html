@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meelad - About</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+    <button id="menu-toggle" class="menu-toggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <nav id="main-nav">
+        <a href="index.html" data-section="home">Home</a>
+        <a href="about.html" class="active" data-section="about">About</a>
+        <a href="skills.html" data-section="skills">Skills</a>
+        <a href="projects.html" data-section="projects">Projects</a>
+        <a href="contact.html" data-section="contact">Contact</a>
+    </nav>
+</header>
+
+<section class="content-section about active" id="about">
+    <h2 class="section-title">About <span>Me</span></h2>
+    <div class="about-content">
+        <div class="about-text">
+            <div class="about-section">
+                <h3><i class="fas fa-hands-helping"></i> Community Service</h3>
+                <p>Aside from being passionate about development, I also love doing community service. I previously served as Drive Chair in my high school, where I outsourced thousands of items donated to the surrounding community.</p>
+
+                <div class="highlight-box">
+                    <p><strong>Notable Drives:</strong></p>
+                    <ul>
+                        <li>Toys for children at MUSC Children's Hospital</li>
+                        <li>Thanksgiving food for less fortunate families</li>
+                        <li>Women's sanitary products for homeless shelters</li>
+                    </ul>
+                    <a href="#" class="btn btn-small">View End of Year Report</a>
+                </div>
+
+                <p>I also participated in the Lymphoma and Leukemia Society's Student of the Year program, leading a team that raised <span class="highlight">$80,000</span> for blood cancer research and treatment in just 8 weeks.</p>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-graduation-cap"></i> Education</h3>
+                <div class="education-item">
+                    <h4>Clemson University <span class="date">Fall 2022 - Spring 2026</span></h4>
+                    <ul>
+                        <li>B.S. in Computing with AI minor</li>
+                        <li>Phi Kappa Tau - Epsilon Nu Chapter</li>
+                        <li>GPA: 3.1</li>
+                    </ul>
+                    <p>I plan to pursue a master's degree after gaining professional experience.</p>
+                </div>
+
+                <div class="education-item">
+                    <h4>Palmetto Scholars Academy <span class="date">Fall 2016 - Spring 2022</span></h4>
+                    <ul>
+                        <li>Weighted GPA: 5.12</li>
+                        <li>Student Body President (2020-2022)</li>
+                        <li>Soccer Team Captain (State Championship finalist)</li>
+                        <li>Drive Committee Head (2020)</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-lightbulb"></i> Philosophy</h3>
+                <p class="philosophy">"I believe life is about doing good deeds for others. Computer science provides incredible opportunities to help people across the world. Through hard work and determination, I hope to leave the world a better place than I found it."</p>
+            </div>
+
+            <div class="about-section">
+                <h3><i class="fas fa-heart"></i> Interests</h3>
+                <div class="interests-grid">
+                    <div class="interest-item">
+                        <i class="fas fa-dumbbell"></i>
+                        <span>Lifting</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-fish"></i>
+                        <span>Deep Sea Fishing</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-gamepad"></i>
+                        <span>Video Games</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-utensils"></i>
+                        <span>Cooking</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-futbol"></i>
+                        <span>Soccer</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-paw"></i>
+                        <span>Fostering Animals</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-video"></i>
+                        <span>Content Creation</span>
+                    </div>
+                    <div class="interest-item">
+                        <i class="fas fa-film"></i>
+                        <span>VFX</span>
+                    </div>
+                </div>
+                <p class="fishing-note">(Employers in Charleston - contact me for a fishing trip!)</p>
+            </div>
+        </div>
+
+        <div class="about-gallery">
+            <div class="gallery-item">
+                <img src="Drive.jpg" alt="Meelad volunteering at community event">
+                <p class="caption">Organizing Thanksgiving Drive</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Clemson.jpg" alt="Meelad at Clemson University">
+                <p class="caption">Me and my Girlfriend in front of Tillman!</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Soccer.jpg" alt="Meelad playing soccer">
+                <p class="caption">High school soccer team captain</p>
+            </div>
+            <div class="gallery-item">
+                <img src="Lights.jpg" alt="Meelad doing the lights">
+                <p class="caption">Working VFX for an event</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
